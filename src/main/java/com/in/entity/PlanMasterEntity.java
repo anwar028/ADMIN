@@ -21,11 +21,11 @@ public class PlanMasterEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY )
 	private Integer planId;
 	private String PlanName;
-	private Character ActiveSw;
-	private Integer CatogoryId;
+	private Integer categoryName;
 	private LocalDate planStartDate;
 	private LocalDate PlanEndDate;
 	
+	private String ActiveSw;
 	private String createdBy;
 	private String updatedBy;
 	

@@ -4,8 +4,12 @@ import java.io.Serializable;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.in.entity.PlanCatogoryEntity;
+import com.in.entity.PlanCategoryEntity;
 
-public interface PlanCategoryRepo extends JpaRepository<PlanCatogoryEntity, Serializable> {
+
+
+
+
+public interface PlanCategoryRepo extends JpaRepository<PlanCategoryEntity, Serializable> {
 
 }

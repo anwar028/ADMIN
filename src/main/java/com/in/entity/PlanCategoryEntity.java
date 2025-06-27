@@ -16,12 +16,12 @@ import lombok.Data;
 @Entity
 @Table(name="PLAN_CATEGORY")
 @Data
-public class PlanCatogoryEntity {
+public class PlanCategoryEntity {
 	
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
-	private Integer catogoryId;
-	private String catogoryName;
+	private Integer categoryId;
+	private String categoryName;
 	private String activeSW;
 	
 	private String cretatedBy;
