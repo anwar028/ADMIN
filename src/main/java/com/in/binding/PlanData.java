@@ -7,9 +7,10 @@ import lombok.Data;
 @Data
 public class PlanData {
 	
-	private Integer planName;
+	private String planName;
 	private LocalDate planStartDate;
 	private LocalDate planEndDate;
 	private Integer categoryId;
+
 
 }
