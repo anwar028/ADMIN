@@ -24,7 +24,7 @@ public class PlanCategoryEntity {
 	private String categoryName;
 	private String activeSW;
 	
-	private String cretatedBy;
+	private String createdBy;
 	private String updatedBy;
 
 	@CreationTimestamp
